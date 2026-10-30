@@ -8,6 +8,11 @@
   <a href="https://github.com/yangguan-xue"><img src="https://img.shields.io/badge/GitHub-yangguan--xue-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </div>
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=yangguan-xue&style=for-the-badge&color=0f172a&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://github.com/yangguan-xue?tab=followers"><img src="https://img.shields.io/github/followers/yangguan-xue?style=for-the-badge&color=0f172a&labelColor=0f172a&logo=github&label=FOLLOWERS" alt="Followers" /></a>
+</div>
+
 ## About
 
 Building practical AI tools and backend systems.
@@ -48,6 +53,21 @@ Building practical AI tools and backend systems.
     </td>
   </tr>
 </table>
+
+## GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yangguan-xue&show_icons=true&hide_border=true&bg_color=0f172a&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&rank_icon=github" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yangguan-xue&layout=compact&hide_border=true&bg_color=0f172a&title_color=58a6ff&text_color=c9d1d9&langs_count=8" height="165" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=yangguan-xue&hide_border=true&background=0F172A&ring=58A6FF&fire=58A6FF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="GitHub streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yangguan-xue&bg_color=0f172a&color=c9d1d9&line=58a6ff&point=ffffff&area=true&area_color=58a6ff&hide_border=true" width="100%" alt="Contribution activity graph" />
+</div>
 
 ## Engineering Toolbox
 
