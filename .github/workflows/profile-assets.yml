@@ -23,8 +23,26 @@ jobs:
           USERNAME: yangguan-xue
           UTC_OFFSET: 8
 
-  snake:
+  prune:
     needs: cards
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Keep only github_dark theme
+        run: |
+          cd profile-summary-card-output
+          ls -d */ | grep -v '^github_dark/$' | xargs rm -rf || true
+          rm -f README.md github_dark/README.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: keep only github_dark cards" || echo "no changes"
+          git pull --rebase
+          git push
+
+  snake:
+    needs: prune
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
