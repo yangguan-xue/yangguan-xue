@@ -1,8 +1,8 @@
-name: Contribution Snake
+name: Profile Assets
 
 on:
   schedule:
-    - cron: "41 4 * * *"
+    - cron: "17 3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -11,7 +11,20 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: yangguan-xue
+          UTC_OFFSET: 8
+
+  snake:
+    needs: cards
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,4 +42,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/snake
           git commit -m "chore: update contribution snake" || echo "no changes"
+          git pull --rebase
           git push
