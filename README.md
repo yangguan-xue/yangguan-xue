@@ -57,8 +57,8 @@ Building practical AI tools and backend systems.
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yangguan-xue&show_icons=true&hide_border=true&bg_color=0f172a&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&rank_icon=github" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yangguan-xue&layout=compact&hide_border=true&bg_color=0f172a&title_color=58a6ff&text_color=c9d1d9&langs_count=8" height="165" alt="Top languages" />
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" height="165" alt="GitHub stats" />
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" height="165" alt="Top languages" />
 </div>
 
 <div align="center">
@@ -66,7 +66,14 @@ Building practical AI tools and backend systems.
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yangguan-xue&bg_color=0f172a&color=c9d1d9&line=58a6ff&point=ffffff&area=true&area_color=58a6ff&hide_border=true" width="100%" alt="Contribution activity graph" />
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="Profile details" />
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake/github-contribution-grid-snake-dark.svg" />
+    <img src="./assets/snake/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake" />
+  </picture>
 </div>
 
 ## Engineering Toolbox
